@@ -17,7 +17,6 @@
       "watch:css": "run-s 'build:css -- --watch'",
       "watch:js": "budo src/index.js:bundle.js --dir public --live --open",
       "watch:static": "npm run build:static -- --watch --verbose",
-      "clean": "rimraf public && mkdirp public",
       "start": "npm run watch"
     },
     "repository": {
