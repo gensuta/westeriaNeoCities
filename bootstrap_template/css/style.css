@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* Variables
+/*******************************************/
+
+:root{
+  --primaryColor: darkblue;
+  --blackLesbianFlag: linear-gradient(184deg, #542724, #8E4435, #E65C2B, #F5A755, #FCEBD9, #EB7670, #D04347);
+  --gradientSpeed: 10s
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background: var(--primaryColor);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Created the below 2 classes with help from https://web.dev/speedy-css-tip-animated-gradient-text/ and https://www.gradient-animator.com/ */
+.under-contruction-text
+{
+  background: var(--blackLesbianFlag);
+  background-size: 1400% 1400%;
+
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+/* color | offset-x | offset-y | blur-radius */
+   box-shadow: 2px 2px 10px #000000;
+
+  -webkit-animation: animateColor var(--gradientSpeed) ease infinite;
+  -moz-animation: animateColor var(--gradientSpeed) ease infinite;
+  animation: animateColor var(--gradientSpeed) ease infinite;
+}
+
+.under-contruction
+{
+  background: var(--blackLesbianFlag);
+  background-size: 100vw 100vh;
+}
+
+@-webkit-keyframes animateColor {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+/* MOBILE */
+@media screen and (min-width:480px) {
+
+}
+
+/* TABLET */
+@media screen and (min-width:800px) {
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+}
