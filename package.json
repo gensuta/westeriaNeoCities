@@ -1,9 +1,10 @@
 {
   "name": "westerianeo",
   "version": "1.0.0",
-  "description": "",
-  "main": "_site/js/index.js",
+  "description": "source of my personal neocities site",
+  "main": "index.js",
   "scripts": {
+    "build": "_site/js/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
