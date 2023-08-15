@@ -1,5 +1,4 @@
 {
-  {
     "name": "westerianeo",
     "version": "1.0.0",
     "description": "A website",
@@ -28,4 +27,3 @@
     "author": "",
     "license": "ISC"
   }
-}
