@@ -1,2 +1,2 @@
 site: index.html
-	mkdir -p _site
+	mkdir -p site
