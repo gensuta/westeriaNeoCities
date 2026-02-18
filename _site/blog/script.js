@@ -15,7 +15,7 @@
 //==[ 1. BASIC INFO ]==
 
 let blogName = "The Spiral Zone";
-let authorName = "Westeria";
+let authorName = "Geneva/Styx";
 let authorLink = "../index.html"; // Enter your website, social media, etc. Some way for people to tell you they like your blog! (Leaving it empty is okay too)
 
 //-----------------------------
