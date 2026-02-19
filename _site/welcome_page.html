@@ -1,204 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
-    <!-- Change your site title: (It is shown in the tab) -->
-    <title>TITLE</title>
-
-    <!-- Change your site description: (It is shown in Google results) -->
-    <meta content="My personal website!" name="description" />
-
-    <!-- Setting character encoding and viewport size. Do not remove. -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardust Styx Welcome page</title>
 
-    <!-- FavIcon (small image in tab), change to any image you want: -->
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <style>
+        body {
+            background-image: url("img/tatsujun_flashback.png");
+             -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 
-    <!-- CSS: -->
-    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
-    <link href="./css/style.css" rel="stylesheet" />
+        .shrink-image {
+            width: 10%;
+            margin-left: auto;
+  margin-right: auto;
+  display: block;
+        }
+
+        #all {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 520px;
+            height: 520px;
+        }
+
+        #container {
+            width: 500px;
+            height: 500px;
+            background-color: #EB7670;
+            padding: 10px;
+            border-radius: 5%;
+        }
+
+        #header {
+            height: 70px;
+            background-position: top left;
+            position: relative;
+        }
+
+        #header h1 {
+            text-transform: uppercase;
+            font-weight: normal;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 3px;
+            text-shadow: 1px 1px 0px #25272b;
+            margin: 0px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
 
 
-    <script>
-        // Template generated with petrapixel's layout generator.
-        // (Please do not remove this credit.)
-        console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
-    </script>
+        #content {
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 377px;
+            padding: 10px;
+            text-align: justify;
+            color: #444951;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        #content p {
+            margin-top: 0px;
+            font-size: 18px;
+            font-family: Helvetica,sans-serif;
+             color: #FCEBD9;
+             text-shadow: 1px 1px 1px #000000;
+             text-align: center;
+        }
+
+        #bottom {
+            height: 23px;
+            background-image: url('https://i.imgur.com/eiaqAdT.png');
+            background-position: top left;
+        }
+
+        #credit a {
+            color: #fff;
+            opacity: 0.5;
+            text-decoration: none;
+        }
+
+        #nav {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        #nav a {
+            color: #fff;
+            opacity: 0.6;
+            text-decoration: none;
+        }
+
+        #nav a:hover {
+            color: #fff;
+            opacity: 1;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ffffff;
+        }
+
+        .bottom-left
+        {
+            position: absolute;
+            width: 40%;
+            bottom: -10px;
+            left: -100px;
+        }
+          .bottom-left-2
+        {
+            position: absolute;
+            width: 10%;
+            bottom: -25px;
+            left: 50px;
+        }
+
+           .bottom-left-3
+        {
+            position: absolute;
+            width: 30%;
+            bottom: -80px;
+            left: 30px;
+        }
+
+             .top-right
+        {
+            position: absolute;
+            width: 20%;
+            top: -45px;
+            right: 0px;
+        }
+
+              .top-center
+        {
+            position: absolute;
+            width: 30%;
+            top: -90px;
+            right: 35%;
+        }
+
+          .top-left
+        {
+            position: absolute;
+            width: 25%;
+            top: -135px;
+            left: -70px;
+        }
+
+        .bottom-right
+        {
+            position: absolute;
+            width: 50%;
+            bottom: -30px;
+            right: -150px;
+        }
+
+        #credit {
+            font-size: 13px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            font-family: 'Garamond', serif;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div id="container">
-        <div id="headerArea">
 
+    <div id="all">
 
-        </div>
+        <div id="container">
 
-        <div id="flex">
+            <div id="header">
+                <h1>Welcome Home!</h1>
+            </div>
+             <img class="top-right" title="Flea from hollow knight silksong" src="img/Flea_Sleep.png">
+             <img class="top-center" title = "Adeline,Reina, my player character, and Celine from Fields of Mistria"src="img/spr_npc_reina_spring_action_east_6.png">
 
-            <main>
-                    <img src="img/puma.gif" alt="Puma from gitarooman chatting in front of a tv" /> 
+             <img class="top-left" title="Mayday from No Straight Rpads" src="img/mayday_laughing.png">
 
-                <p class="under-construction-text">Gentle Reminder to stretch! Unshrimp!
-                    Take a lil sippy of water!
-                    And remember there's someone out there that cares about you <3 </p>
-                        <a href="index.html"><img class="shrink-image" src="img/Secretary_transform_transparent.gif" alt="Puma from gitarooman chatting in front of a tv" /> </a>
+            <img class="bottom-left" title="Mirabelle from In Stars and Time" src="img/ISAT_Menu_Mirabelle_ACT6.webp">
+            <img class="bottom-left-2" title = "Frog Ball from Super Lesbian Animal RPG"src="img/Frog-Ball.png">
+        
+            
+               <img class="bottom-right" title ="Cleo, Dio, and Theo (the polycule) from Spirit Swap" src="img/Polycule.png">
+            <div id="content">
 
+                <img style="padding-bottom:10px;width:90%;display:block;margin-left: auto;margin-right: auto;" src="img/puma.gif" alt="Puma from gitarooman chatting in front of a tv" />
 
-            </main>
+                <p>Gentle Reminder to stretch! Unshrimp!</p>
+                <p>Take a lil sippy of water! And REMEMBER,</p>
+                <p>There's someone out there that cares about you <3 </p>
+                        <a href="index.html"><img class="shrink-image" src="img/Secretary_transform_transparent.gif"
+                                alt="Secretary from 1000xResist" /> </a>
+            </div>
+
+            <div id="bottom"></div>
 
         </div>
 
     </div>
-    <!-- THIS IS THE CSS !-->
-    <style>
-        /* user styles */
 
-        /* styles are what change the color and sizes of stuff on your site. */
+    <div id="credit"><a href="https://repth.neocities.org/index.html">@Repth</a></div>
 
-        /* these are variables that are being used in the code
-    these tended to confuse some people, so I only kept 
-    the images as variables */
-
-        :root {
-            /* colors */
-            --content: #571e0a;
-        }
-
-        /* if you have the URL of a font, you can set it below */
-        /* feel free to delete this if it's not your vibe */
-
-        /* this seems like a lot for just one font and I would have to agree 
-    but I wanted to include an example of how to include a custom font.
-    If you download a font file you can upload it onto your Neocities
-    and then link it! Many fonts have separate files for each style
-    (bold, italic, etc. T_T) which is why there are so many!
-    
-    */
-
-        .shrink-image
-        {
-            width: 10%;
-        }
-
-        body {
-            font-family: 'Helvitica', sans-serif;
-            margin: 0;
-            background-color: #08031A;
-            /* you can delete the line below if you'd prefer to not use an image */
-            background-size: 65px;
-            color: #fceaff;
-            background-image: linear-gradient(156deg, #542724 7.14%, #8e4435 7.14%, #8e4435 14.29%, #e65c2b 14.29%, #e65c2b 21.43%, #f5a755 21.43%, #f5a755 28.57%, #fcebd9 28.57%, #fcebd9 35.71%, #eb7670 35.71%, #eb7670 42.86%, #d04347 42.86%, #d04347 50%, #542724 50%, #542724 57.14%, #8e4435 57.14%, #8e4435 64.29%, #e65c2b 64.29%, #e65c2b 71.43%, #f5a755 71.43%, #f5a755 78.57%, #fcebd9 78.57%, #fcebd9 85.71%, #eb7670 85.71%, #eb7670 92.86%, #d04347 92.86%, #d04347 100%);
-            background-size: 344.20px 153.25px;
-           
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        /* below this line is CSS for the layout */
-
-        /* this is a CSS comment
-    to uncomment a line of CSS, remove the * and the /
-    before and after the text */
-
-
-        /* the "container" is what wraps your entire website */
-        /* if you want something (like the header) to be Wider than
-    the other elements, you will need to move that div outside
-    of the container */
-        #container {
-            max-width: 900px;
-            /* this is the width of your layout! */
-            /* if you change the above value, scroll to the bottom
-      and change the media query according to the comment! */
-            margin: 0 auto;
-            /* this centers the entire page */
-        }
-
-
-        #flex {
-            display: flex;
-        }
-
-        /* this is the color of the main content area,
-    between the sidebars! */
-        main {
-            background-color: #5b310a;
-            flex: 1;
-            padding: 20px;
-            order: 2;
-            text-shadow: #000000 2px 2px;
-            box-shadow: 12px 12px 10px #000000;
-        }
-
-        
-        /* what's this "order" stuff about??
-    allow me to explain!
-    if you're using both sidebars, the "order" value
-    tells the CSS the order in which to display them.
-    left sidebar is 1, content is 2, and right sidebar is 3! */
-
-        */ #leftSidebar {
-            order: 1;
-        }
-
-        #rightSidebar {
-            order: 3;
-        }
-
-        footer {
-            background-color: #13092D;
-            /* background color for footer */
-            width: 100%;
-            height: 40px;
-            padding: 10px;
-            text-align: center;
-            /* this centers the footer text */
-        }
-
-
-        /* BELOW THIS POINT IS MEDIA QUERY */
-
-        /* so you wanna change the width of your page? 
-    by default, the container width is 900px.
-    in order to keep things responsive, take your new height,
-    and then subtrack it by 100. use this new number as the 
-    "max-width" value below
-    */
-
-        @media only screen and (max-width: 800px) {
-            #flex {
-                flex-wrap: wrap;
-            }
-
-            aside {
-                width: 100%;
-            }
-
-            /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
-            main {
-                order: 1;
-            }
-
-            #leftSidebar {
-                order: 2;
-            }
-
-            #rightSidebar {
-                order: 3;
-            }
-
-            #navbar ul {
-                flex-wrap: wrap;
-            }
-        }
-    </style>
 </body>
 
 </html>
