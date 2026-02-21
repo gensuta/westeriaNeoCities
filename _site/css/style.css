@@ -31,6 +31,25 @@
 }
 
 /* -------------------------------------------------------- */
+/* my bullshit yerrrrr */
+/* -------------------------------------------------------- */
+
+.index-cat
+{
+  position: absolute;
+  width: 20%;
+  top: 10px;
+  right: 450px;
+}
+
+.king{
+  width: 15%;
+  position: absolute;
+  bottom:0px;
+  right: 400px;
+}
+
+/* -------------------------------------------------------- */
 /* BASICS */
 /* -------------------------------------------------------- */
 
@@ -240,11 +259,12 @@ footer a:focus {
 /* -------------------------------------------------------- */
 
 nav {
+  
   margin-bottom: 3em;
 }
 
-nav .sidebar-title {
-  margin-bottom: 0.5em;
+nav a{
+  color: #F5A755;
 }
 
 nav ul {
@@ -280,62 +300,6 @@ nav ul summary {
 
 nav ul ul li > a {
   padding-left: 30px;
-}
-
-/* NAVIGATION IN HEADER */
-
-header nav {
-  margin-bottom: 0;
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-}
-
-header nav ul li {
-  position: relative;
-}
-
-header nav ul li:first-child > a {
-  padding-left: 0;
-}
-
-header nav ul li:last-child > a {
-  padding-right: 0;
-}
-
-/* Subnavigation (Drop-Down): */
-
-header nav ul ul {
-  background: var(--content-background-color);
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 10px;
-  padding: 0.5em;
-  z-index: 1;
-  border: var(--border);
-  min-width: 100%;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-}
-
-header nav ul li:hover ul,
-header nav ul li:focus-within ul {
-  display: block;
-}
-
-header nav ul li strong {
-  color: var(--link-color);
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-header nav ul ul li a {
-  display: block;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 /* -------------------------------------------------------- */
